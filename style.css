@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poor+Story&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+body {
+  background-color: #333; }
+  body #section {
+    width: 100%;
+    margin: 0 auto; }
+    body #section .inner {
+      width: 1180px;
+      padding: 30px;
+      position: relative; }
+      body #section .inner h1 {
+        font-family: "Poor Story";
+        color: bisque;
+        font-size: 60px;
+        text-align: center;
+        margin: 45px 0;
+        margin-top: 60px; }
+      body #section .inner h2 {
+        font-family: "Poor Story";
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px; }
+        body #section .inner h2 > a {
+          color: #fff; }
+      body #section .inner h3 {
+        font-family: "Fuzzy Bubbles";
+        color: #888;
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 40px;
+        left: 47%; }
+        body #section .inner h3::after {
+          content: "";
+          clear: both;
+          display: block;
+          width: 20px;
+          height: 2px;
+          background-color: #fff;
+          position: absolute;
+          left: 30px; }
+      body #section .inner .wrap {
+        width: 100%;
+        padding: 30px; }
+        body #section .inner .wrap::after {
+          content: "";
+          clear: both;
+          display: block; }
+        body #section .inner .wrap article {
+          box-sizing: border-box;
+          float: left; }
+          body #section .inner .wrap article:nth-child(1) {
+            width: 450px; }
+            body #section .inner .wrap article:nth-child(1) img {
+              border-radius: 50%;
+              box-shadow: 10px 15px 20px #111; }
+            body #section .inner .wrap article:nth-child(1) > a {
+              color: #fff;
+              font-size: 35px;
+              position: absolute;
+              left: 370px; }
+          body #section .inner .wrap article:nth-child(2) {
+            width: 600px; }
+            body #section .inner .wrap article:nth-child(2) .box1 {
+              width: 200px;
+              padding: 50px;
+              float: left; }
+              body #section .inner .wrap article:nth-child(2) .box1 h4 {
+                font-family: "Fuzzy Bubbles";
+                font-size: 23px;
+                color: cadetblue;
+                font-weight: bold;
+                margin-bottom: 20px;
+                letter-spacing: 2px; }
+              body #section .inner .wrap article:nth-child(2) .box1 .circle1 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(255, 0, 0, 0.767);
+                background-color: orangered;
+                opacity: 0.7;
+                font-weight: bold;
+                font-family: "Poor Story";
+                font-size: 25px;
+                text-align: center;
+                color: #000;
+                line-height: 100px;
+                margin-bottom: 20px; }
+              body #section .inner .wrap article:nth-child(2) .box1 .circle2 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: -5px 5px 3px rgba(0, 128, 0, 0.753);
+                background-color: seagreen;
+                opacity: 0.7;
+                font-weight: bold;
+                font-family: "Poor Story";
+                font-size: 25px;
+                text-align: center;
+                color: #000;
+                line-height: 100px;
+                margin-bottom: 20px; }
+              body #section .inner .wrap article:nth-child(2) .box1 .circle3 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(36, 0, 128, 0.726);
+                background-color: #56049e;
+                opacity: 0.7;
+                font-weight: bold;
+                font-family: "Poor Story";
+                font-size: 25px;
+                text-align: center;
+                color: #000;
+                line-height: 100px; }
+            body #section .inner .wrap article:nth-child(2) .box2 {
+              width: 200px;
+              padding: 50px;
+              float: left; }
+              body #section .inner .wrap article:nth-child(2) .box2 h4 {
+                font-family: "Fuzzy Bubbles";
+                font-size: 24px;
+                font-weight: bold;
+                color: cadetblue;
+                margin-bottom: 20px;
+                letter-spacing: 2px;
+                text-align: center; }
+              body #section .inner .wrap article:nth-child(2) .box2 .circle4 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(255, 182, 193, 0.692);
+                background-color: pink;
+                opacity: 0.7;
+                margin-bottom: 20px;
+                font-family: "Poor Story", "Fuzzy Bubbles";
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                color: #000;
+                line-height: 100px; }
+              body #section .inner .wrap article:nth-child(2) .box2 .circle5 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: -5px 5px 3px #e1f0fc;
+                background-color: lightblue;
+                opacity: 0.7;
+                margin-bottom: 20px;
+                font-family: "Poor Story", "Fuzzy Bubbles";
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                color: #000;
+                line-height: 100px; }
+              body #section .inner .wrap article:nth-child(2) .box2 .circle6 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(255, 250, 205, 0.788);
+                background-color: lightyellow;
+                opacity: 0.7;
+                font-family: "Poor Story", "Fuzzy Bubbles";
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                color: #000;
+                line-height: 100px; }
+            body #section .inner .wrap article:nth-child(2) .box3 {
+              width: 200px;
+              padding: 50px;
+              float: left; }
+              body #section .inner .wrap article:nth-child(2) .box3 h4 {
+                font-family: "Fuzzy Bubbles";
+                font-size: 23px;
+                font-weight: bold;
+                color: cadetblue;
+                margin-bottom: 20px;
+                letter-spacing: 2px;
+                text-align: center; }
+              body #section .inner .wrap article:nth-child(2) .box3 .circle7 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(248, 248, 16, 0.448);
+                background-color: #fcce44;
+                opacity: 0.7;
+                margin-bottom: 20px;
+                font-family: "Poor Story", "Fuzzy Bubbles";
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                color: #000;
+                line-height: 100px; }
+              body #section .inner .wrap article:nth-child(2) .box3 .circle8 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(55, 248, 16, 0.448);
+                background-color: #91fc44;
+                opacity: 0.7;
+                margin-bottom: 20px;
+                font-family: "Poor Story", "Fuzzy Bubbles";
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                color: #000;
+                line-height: 100px; }
+              body #section .inner .wrap article:nth-child(2) .box3 .circle9 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 3px rgba(92, 92, 234, 0.644);
+                background-color: #5d03f7;
+                opacity: 0.7;
+                font-family: "Poor Story", "Fuzzy Bubbles";
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                color: #000;
+                line-height: 100px; }
+
+/*# sourceMappingURL=style.css.map */

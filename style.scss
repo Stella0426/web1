@@ -1,0 +1,208 @@
+@charset 'utf-8';
+@import 'reset.scss';
+
+body{
+    background-color: #333;
+    #section{
+        width: 100%;
+        margin: 0 auto;
+        .inner{
+            width: 1180px;
+            padding: 30px;
+            position: relative;
+            h1{
+                font-family: "Poor Story";
+                color: bisque;
+                font-size: 60px;
+                text-align: center;
+                margin: 45px 0;
+                margin-top: 60px;
+            }
+            h2{
+                font-family: "Poor Story";
+                font-size: 30px;
+                text-align: center;
+                margin-bottom: 40px;
+                >a{color: #fff;}
+            }
+            h3{
+                font-family: "Fuzzy Bubbles";
+                color: #888; font-weight: bold;
+                font-size: 25px;
+                position: absolute;
+                top: 40px; left: 47%;
+                &::after{
+                    content: "";clear: both;display: block;
+                    width: 20px; height: 2px;
+                    background-color: #fff;
+                    position: absolute;
+                    left: 30px;
+                }
+            }
+            .wrap{
+                width: 100%;
+                padding: 30px;
+                &::after{content: "";clear: both;display: block;}
+                article{
+                    box-sizing: border-box;
+                    float: left;
+                    &:nth-child(1){
+                        width: 450px;
+                        img{
+                            border-radius: 50%;
+                            box-shadow: 10px 15px 20px #111;
+                        }
+                        >a{
+                            color: #fff;
+                            font-size: 35px;
+                            position: absolute;
+                            left: 370px;
+                        }
+                    }
+                    &:nth-child(2){
+                        width: 600px;
+                        .box1{
+                            width: 200px;
+                            padding: 50px;
+                            float: left;
+                            h4{
+                                font-family: "Fuzzy Bubbles";
+                                font-size: 23px;
+                                color: cadetblue;
+                                font-weight: bold;
+                                margin-bottom: 20px;
+                                letter-spacing: 2px;
+                            }
+                            .circle1{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(255, 0, 0, 0.767);
+                                background-color: orangered;
+                                opacity: 0.7; font-weight: bold;
+                                font-family: "Poor Story";
+                                font-size: 25px; text-align: center;
+                                color: #000; line-height: 100px;
+                                margin-bottom: 20px;
+                            }
+                            .circle2{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: -5px 5px 3px rgba(0, 128, 0, 0.753);
+                                background-color: seagreen;
+                                opacity: 0.7; font-weight: bold;
+                                font-family: "Poor Story";
+                                font-size: 25px; text-align: center;
+                                color: #000; line-height: 100px;
+                                margin-bottom: 20px;
+                            }
+                            .circle3{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(36, 0, 128, 0.726);
+                                background-color: rgb(86, 4, 158);
+                                opacity: 0.7; font-weight: bold;
+                                font-family: "Poor Story";
+                                font-size: 25px; text-align: center;
+                                color: #000; line-height: 100px;
+                            }
+                        }
+                        .box2{
+                            width: 200px;
+                            padding: 50px;
+                            float: left;
+                            h4{
+                                font-family: "Fuzzy Bubbles";
+                                font-size: 24px;
+                                font-weight: bold;
+                                color: cadetblue;
+                                margin-bottom: 20px;
+                                letter-spacing: 2px;
+                                text-align: center;
+                            }
+                            .circle4{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(255, 182, 193, 0.692);
+                                background-color: pink;
+                                opacity: 0.7; margin-bottom: 20px;
+                                font-family: "Poor Story", "Fuzzy Bubbles";
+                                font-size: 25px; text-align: center;
+                                font-weight: bold;
+                                color: #000; line-height: 100px;
+                            }
+                            .circle5{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: -5px 5px 3px rgb(225, 240, 252);
+                                background-color: lightblue;
+                                opacity: 0.7; margin-bottom: 20px;
+                                font-family: "Poor Story", "Fuzzy Bubbles";
+                                font-size: 25px; text-align: center;
+                                font-weight: bold;
+                                color: #000; line-height: 100px;
+                            }
+                            .circle6{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(255, 250, 205, 0.788);
+                                background-color: lightyellow;
+                                opacity: 0.7; 
+                                font-family: "Poor Story", "Fuzzy Bubbles";
+                                font-size: 25px; text-align: center;
+                                font-weight: bold;
+                                color: #000; line-height: 100px;
+                            }
+                        }
+                        .box3{
+                            width: 200px;
+                            padding: 50px;
+                            float: left;
+                            h4{
+                                font-family: "Fuzzy Bubbles";
+                                font-size: 23px;
+                                font-weight: bold;
+                                color: cadetblue;
+                                margin-bottom: 20px;
+                                letter-spacing: 2px;
+                                text-align: center;
+                            }
+                            .circle7{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(248, 248, 16, 0.448);
+                                background-color: rgb(252, 206, 68);
+                                opacity: 0.7; margin-bottom: 20px;
+                                font-family: "Poor Story", "Fuzzy Bubbles";
+                                font-size: 25px; text-align: center;
+                                font-weight: bold;
+                                color: #000; line-height: 100px;
+                            }
+                            .circle8{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(55, 248, 16, 0.448);
+                                background-color: rgb(145, 252, 68);
+                                opacity: 0.7; margin-bottom: 20px;
+                                font-family: "Poor Story", "Fuzzy Bubbles";
+                                font-size: 25px; text-align: center;
+                                font-weight: bold;
+                                color: #000; line-height: 100px;
+                            }
+                            .circle9{
+                                width: 100px; height: 100px;
+                                border-radius: 50%;
+                                box-shadow: 5px 5px 3px rgba(92, 92, 234, 0.644);
+                                background-color: rgb(93, 3, 247);
+                                opacity: 0.7; 
+                                font-family: "Poor Story", "Fuzzy Bubbles";
+                                font-size: 25px; text-align: center;
+                                font-weight: bold;
+                                color: #000; line-height: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
